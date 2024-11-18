@@ -1,0 +1,37 @@
+.provenComputer .arrow {
+  font-size: 20px;
+  padding: 8px 8px;
+  color: #3861e8;
+  position: absolute;
+  display: flex;
+  margin-top: 80px;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.provenComputer .arrow-prev {
+  padding: 6px;
+  border-radius: 2px;
+  position: absolute;
+  background-color: #ffffff;
+  margin-left: -80px;
+  display: inline-flex;
+}
+.provenComputer .arrow-prev:hover {
+  background-color: #3861e8;
+  color: #fff;
+}
+.provenComputer .arrow-next {
+  padding: 6px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  margin-left: 60px;
+}
+.provenComputer .arrow-next:hover {
+  background-color: #3861e8;
+  color: #fff;
+}
